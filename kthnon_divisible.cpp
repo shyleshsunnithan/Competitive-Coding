@@ -1,5 +1,4 @@
 //Find the Kth number which is not divisible by N
-
 #include <bits/stdc++.h>  
 using namespace std; 
 int nodivisible(int n, int k) 
