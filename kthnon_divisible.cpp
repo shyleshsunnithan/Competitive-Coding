@@ -12,7 +12,7 @@ int nodivisible(int n, int k)
     } 
     return j; 
 } 
-
+ 
 int main() 
 { 
     int n = 3; 
