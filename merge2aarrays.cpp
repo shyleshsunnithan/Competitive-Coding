@@ -8,6 +8,8 @@ void merge(long long ar1[], long long ar2[], long long m, int n)
     { 
 
         long long j, last = ar1[m-1]; 
+      
+     //Merging Process
         for (j=m-2; j >= 0 && ar1[j] > ar2[i]; j--) 
             ar1[j+1] = ar1[j]; 
   
@@ -23,26 +25,23 @@ void merge(long long ar1[], long long ar2[], long long m, int n)
 int main(void) 
 { 
     long long test,m,n,ar1[100001],ar2[100001],i;
-    
-    
     cin>>test;
     while(test--){
-        
         cin>>m>>n;
-        
+ 
         for (i=0; i<m; i++) 
             cin>>ar1[i];
             
         for (i=0; i<n; i++) 
             cin>>ar2[i];
         
-        merge(ar1, ar2, m, n); 
+        merge(ar1, ar2, m, n); // Merge Operation
         
         for (i=0; i<m; i++) 
-            cout << ar1[i] << " "; 
+            cout << ar1[i] << " "; //Printing Array 1
         cout << "\n";
         for (i=0; i<n; i++) 
-            cout << ar2[i] << " "; 
+            cout << ar2[i] << " "; //Printing Array 2
             
         cout<<"\n";
         
