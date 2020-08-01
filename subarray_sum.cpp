@@ -22,7 +22,7 @@ int main()
         
         for(int i=0;i<n;i++)
         {
-            currsum += a[i];
+            c_sum += a[i];
             if(c_sum>=k)
             {
                 last=i;
