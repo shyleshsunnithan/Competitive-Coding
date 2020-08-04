@@ -41,7 +41,7 @@ int main()
         cin>>num;
         printString(num);
         
-    }
+    } 
   
     return 0; 
 }
