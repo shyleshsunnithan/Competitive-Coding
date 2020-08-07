@@ -1,3 +1,3 @@
 # Competitive-Coding
 
-[x] Count the Triplets.
+- [x] Count the Triplets.
