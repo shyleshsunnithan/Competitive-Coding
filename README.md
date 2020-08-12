@@ -12,3 +12,5 @@
 - [x] Find the Missing number from the array.
 - [ ] RearrangeArray.
 - [x] Reverse the Linkedlist.
+- [x] Reverse Words in a string.
+- [x] Search in rotated array.
