@@ -14,7 +14,7 @@ void printString(int n)
         if (r == 0) { 
             str[i++] = 'Z'; //if 0 Z should be in the op
             n = (n / 26) - 1; 
-        } 
+        }
         
         else 
         { 
