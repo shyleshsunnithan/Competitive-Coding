@@ -12,7 +12,7 @@ void printString(int n)
         int r = n % 26; 
         
         if (r == 0) { 
-            str[i++] = 'Z'; //if 0 Z should be in the op
+            str[i++] = 'Z';  //if 0 Z should be in the op
             n = (n / 26) - 1; 
         }
         
