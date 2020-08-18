@@ -9,7 +9,7 @@ void printString(int n)
   
     while (n > 0) { 
         
-        int r = n % 26; 
+        int r = n % 26;  
         
         if (r == 0) { 
             str[i++] = 'Z';  //if 0 Z should be in the op
