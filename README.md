@@ -14,3 +14,4 @@
 - [x] Reverse the Linkedlist.
 - [x] Reverse Words in a string.
 - [x] Search in rotated array.
+- [ ] DS Algo
